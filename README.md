@@ -12,7 +12,10 @@ cocoscreator 命令执行插件
         "args":["${projectPath}/assets/resources/"],//参数列表
         "title":"echo",//显示名称
         "cwd":"${projectPath}",//执行目录
-        "refreshDB":"assets/resources/"//刷新资产目录
+        "refreshDB":"assets/resources/",//刷新资产目录
+        "env":{//环境变量
+            "CUSTOM_PATH":"custompath"
+        }
     },
     {
         "command":"ls",
