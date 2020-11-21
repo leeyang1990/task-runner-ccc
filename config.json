@@ -1,0 +1,16 @@
+[
+    {
+        "command":"echo",
+        "args":["${projectPath}/assets/resources/"],
+        "title":"echo",
+        "cwd":"${projectPath}",
+        "refreshDB":"assets/resources/"
+    },
+    {
+        "command":"ls",
+        "args":[],
+        "title":"ls",
+        "cwd":"${projectPath}"
+    }
+
+]
